@@ -17,5 +17,5 @@ I recommened being able to use an internet browers, github and Markdown Language
 
 ## Contributors
 Tosh Newton BS in CS at NWMSU
-![Tosh Newton](https://github.com/toshnewton/about-me/tosh.jpg)
+![Tosh Newton](tosh.jpg)
 
