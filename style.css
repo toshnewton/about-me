@@ -150,5 +150,9 @@
                 min-width: 450px;
 		        max-width: 870px;
             }
+
+            #foooter {
+                font-style: italic;
+            }
             
             
