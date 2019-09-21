@@ -42,7 +42,7 @@
 		          margin: auto;
 		          min-width: 450px;
 		          max-width: 1020px;
-                
+                  align-content: center;
             }
 
             article {
@@ -61,6 +61,7 @@
                   height: 500px;
 	              letter-spacing:0.1em;
 	              font-weight: bold; 
+                  text-align: center;
             }
             p {
                 padding-top:30px;
@@ -93,11 +94,6 @@
                 color:gray;
             }
             
-            audio {
-                padding-top:30px;
-                padding-left:30px;
-                padding-bottom:20px;
-            }
             
             footer {
                 padding-top:5px;
