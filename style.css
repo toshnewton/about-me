@@ -14,7 +14,7 @@
 
             nav { float: left;
 	              width: 150px;
-                  height: 500px;
+                  height: 1000px;
 	              letter-spacing:0.1em;
 	              font-weight: bold;
                 }
@@ -98,7 +98,6 @@
             footer {
                 padding-top:5px;
                 padding-left:30px;
-                padding-bottom:15px;
                 font-size: 12px;
                 font-family: Arial, Helvetica, sans-serif;
                 border-top: solid 1px gray;
