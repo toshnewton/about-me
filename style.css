@@ -102,6 +102,27 @@
                 font-size: 12px;
                 font-family: Arial, Helvetica, sans-serif;
                 border-top: solid 1px gray;
+                color:gray;
+            }
+
+            footer a:hover {
+                color:skyblue;
+            }
+            
+            footer a:active {
+                color:skyblue;
+            }
+            
+            footer a:visited {
+                color:gray;
+            }
+
+            footer a {
+                font-size: 12px;
+                padding-left: 30px;
+                color:gray;
+                text-decoration: none;
+                font-family: Arial, Helvetica, sans-serif;
             }
             
             
