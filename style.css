@@ -6,16 +6,62 @@
                 position: relative;
                 
             }
+
+            span {
+                color:#FFF;
+            
+            }
+
+            nav { float: left;
+	              width: 150px;
+                  height: 500px;
+	              letter-spacing:0.1em;
+	              font-weight: bold;
+                }
             
             h1 {color:#FFF;
+                text-align: center;
                 margin: 0;
                 font-family: "Times New Roman", Times, serif;}
+
+            .h1-black {
+                color:#000;
+                text-align: center;
+                margin: 0;
+                font-family: "Times New Roman", Times, serif;
+                padding-top: 5px;
+            }
             
             body {
                 margin: 0; 
                 padding: 0;
             }
             
+            #wrapper {
+                  width: 90%;
+		          margin: auto;
+		          min-width: 450px;
+		          max-width: 1020px;
+                
+            }
+
+            article {
+		             overflow: auto;    
+            }
+
+            ol {
+                color:gray;
+                text-decoration: none;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            aside {
+                  float: right;
+	              width: 150px;
+                  height: 500px;
+	              letter-spacing:0.1em;
+	              font-weight: bold; 
+            }
             p {
                 padding-top:30px;
                 padding-left:30px;
