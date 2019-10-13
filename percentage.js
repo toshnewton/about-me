@@ -1,4 +1,4 @@
-const percentage = (x) => { return (x * 0.69)}
+const percentageSix = (x) => { return (x * 0.69)}
 
 const percentage = new Vue({
   el: '#percentage',
@@ -8,7 +8,7 @@ const percentage = new Vue({
   computed: {
     result: function () {
       const i = parseInt(this.firstNumber)
-      return `69 Percent is ${percentage(i)}.`
+      return `69 Percent is ${percentageSix(i)}.`
     }
   }
 })
