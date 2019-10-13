@@ -8,7 +8,7 @@ const percentage = new Vue({
   computed: {
     result: function () {
       const i = parseInt(this.firstNumber)
-      return `69 Percent is ${percentageSix(i)}.`
+      return `69 percent of ${this.firstNumber} is ${percentageSix(i)}.`
     }
   }
 })
