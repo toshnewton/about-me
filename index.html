@@ -28,14 +28,11 @@
     </nav>
         
     <aside>
-        
-        <ol>
-            <li><a href="https://www.facebook.com/tosh.newton"><br><img src="https://img.icons8.com/material/24/000000/facebook-new.png"></a></li>
+            <a href="https://www.facebook.com/tosh.newton"><br><img src="https://img.icons8.com/material/24/000000/facebook-new.png"></a></li>
             
-            <li><a href="https://www.linkedin.com/in/tosh-newton-65362410a"><br><img src="https://img.icons8.com/material/24/000000/linkedin--v1.png"></a></li>
+            <a href="https://www.linkedin.com/in/tosh-newton-65362410a"><br><img src="https://img.icons8.com/material/24/000000/linkedin--v1.png"></a></li>
             
-            <li><a href="https://github.com/toshnewton"><br><img src="https://img.icons8.com/material/24/000000/github.png"></a></li>
-        </ol>
+            <a href="https://github.com/toshnewton"><br><img src="https://img.icons8.com/material/24/000000/github.png"></a>
         <br>
         <img src="boo.jpg" class="img-circle" alt="tosh-profile" width="150" height="150">
         <figcaption>Photo Credits:Tosh Newton</figcaption>
@@ -59,10 +56,12 @@
         
         <hr>
         
+        <article>
         <iframe width="420" height="315"
             src="https://www.youtube.com/embed/watch?v=VP-5GNJSw4g">
         </iframe>
-        
+        </article>
+        <article>
         <h2>Siblings</h2>
 
         <table style="width:30%">
@@ -82,7 +81,20 @@
                 <td>16</td>
             </tr>
         </table>
-        
+        </article>
+
+        <article id="percentage" class="col-md-4 ">
+            <h2>Find 69% of a number</h2>
+    
+            <fieldset class="mt-2">
+              <label for="firstNumber">Radius:</label>
+              <input v-model="firstNumber" id="firstNumber" type="number" min="1" max="1000">
+              <span id="firstWarning" class="text-danger"></span>
+            </fieldset>
+    
+            <h3 class="mt-2">{{result}}</h3>
+          </article>
+
     </main>
     </div>
     <footer id="foooter">
